@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: sans-serif;
+}
+h1{
+    margin: auto;
+    margin-top: 200px;
+}
+.button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    background: #2196F3;
+    color: #FFFFFF;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+#si{
+    left: 20%;
+    transform: translateY(-50%) translateX(300%);
+}
+#no{
+    left: 60%;
+    transform: translateY(-50%) translateX(-50%);
+}
